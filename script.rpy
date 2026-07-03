@@ -33,18 +33,15 @@ define mama = Character("Mamá", color="#e74c3c")
 # ============================================================
 # IMÁGENES PLACEHOLDER (paleta del Pitch Deck)
 # ============================================================
-
-# Fondos - progresión de luz por acto
 image bg_black = Solid("#000000")
-image bg_playa_noche = Solid("#1a1a2e")        # Acto I: noche artificial
-image bg_calle_noche = Solid("#2d2d44")
-image bg_habitacion = Solid("#2c1a3a")         # Morado introspección
-image bg_campus_tarde = Solid("#5a5a6a")       # Acto II: tarde nublada (gris)
-image bg_oficina = Solid("#4a4a4a")            # Gris institucional
-image bg_playa_accidente = Solid("#1a0a1a")    # Noche del accidente
-image bg_playa_amanecer = Solid("#d4a574")     # Acto III: amanecer limpio
-image bg_malecon = Solid("#3a3a4a")
-
+image bg_playa_noche = im.Scale("images/bg_playa_noche.png", 1920, 1080)
+image bg_calle_noche = im.Scale("images/bg_calle_noche.png", 1920, 1080)
+image bg_habitacion = im.Scale("images/bg_habitacion.png", 1920, 1080)
+image bg_campus_tarde = im.Scale("images/bg_campus_tarde.png", 1920, 1080)
+image bg_oficina = im.Scale("images/bg_oficina.png", 1920, 1080)
+image bg_playa_accidente = im.Scale("images/bg_playa_accidente.png", 1920, 1080)
+image bg_playa_amanecer = im.Scale("images/bg_playa_amanecer.png", 1920, 1080)
+image bg_malecon = im.Scale("images/bg_malecon.png", 1920, 1080)
 # Personajes (sólidos)
 image bernard_neutral = Solid("#e67e22")
 image bernard_preocupado = Solid("#d35400")
