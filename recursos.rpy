@@ -1,0 +1,12 @@
+## Fondos##
+image bg playa = "images/playa.png"
+image bg_escritorio_noche = "bg_escritorio_noche.png"
+image bg_escritorio_progreso = "bg_escritorio_limpio.png"
+image bg_cuarto_resaca = "bg_habitacion_manana.png"
+image bg_cuarto_caos = "bg_habitacion_desorden.png"
+image bg_cancha_calida = "bg_cancha_atardecer.png"
+image bg_cancha_fria = "bg_cancha_noche_fria.png"
+image bg_calle_noche = "bg_calle_ciudad.png"
+image bg_calle_accidente = "bg_calle_frenazo.png"
+image bg_biblioteca = "bg_biblioteca_orden.png"
+image bg_horizonte = "bg_ventana_abierta.png"
