@@ -716,10 +716,10 @@ label acto3_inicio:
     if valenzuela_relacion >= 70:
         v "¿Cómo estás? ¿De verdad?"
         $ valenzuela_interacciones += 1
-        hide valenzuela_neutral
         
         menu:
             "Mejor. Estoy buscando ayuda.":
+                hide valenzuela_neutral
                 $ valenzuela_relacion += 10
                 $ valenzuela_ultima_impresion = "mejorando"
                 show valenzuela_orgullosa at center, bajar_sprite
